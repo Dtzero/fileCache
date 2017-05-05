@@ -1,0 +1,42 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>无标题文档</title>
+</head>
+/*
+position:relative;  相对定位
+		a、不影响元素本身的特性；
+		b、不使元素脱离文档流（元素移动之后原始位置会被保留）；
+		c、如果没有定位偏移量，对元素本身、位置没有任何影响，只会提升层级；
+		d、提升层级
+虽然移动了位置，但是占据自己原来的位置，只是表象移动到了定位位置，并不占位置，后写的元素依旧可以书写，但是会被遮挡，文本也会，层级提升一层；相对的位移量是距原位置的距离；
+
+定位元素位置控制
+		top/right/bottom/left  定位元素偏移量。
+
+position:absolute;  绝对定位
+		a、使元素完全脱离文档流；
+		b、使内嵌支持宽高；
+		c、块属性标签内容撑开宽度；
+		d、如果有定位父级相对于定位父级发生偏移，没有定位父级相对于document发生偏移；
+		e、相对定位一般都是配合绝对定位元素使用；
+		f、提升层级
+z-index:[number]；  定位层级
+		a、定位元素默认后者层级高于前者；
+		b、建议在兄弟标签之间比较层级
+
+position:fixed； 固定定位
+		与绝对定位的特性基本一致，
+		问题：IE6不支持固定定位；
+
+position定位其他值：
+		position:static ； 默认值
+		position:inherit ;  从父元素继承定位属性的值 (不兼容)
+
+position:relative | absolute | fixed | static | inherit;
+*/
+
+<body>
+</body>
+</html>

@@ -1,0 +1,481 @@
+/* CSS Document */
+
+	.wrap_jipiao{
+		width:100%;
+		background:#ededed;
+		}
+	.box_jipiao{
+		width:990px;
+		margin:0 auto;
+		}
+	.box1_jipiao{
+  		height: 32px;
+ 		background-color: #e4f4ff;
+ 		padding-left: 64px;
+		margin-bottom:8px;
+		}
+	.nav_box1 a{
+		padding: 0 6px;
+  		font: 12px/22px "Microsoft yahei";
+ 		color: #23516e;
+  		background-color: #e4f4ff;
+ 		margin-top: 6px;
+  		float: left;
+  		border-radius: 15%;
+		}
+	.shu_nav_box1{
+		width: 1px;
+  		height: 12px;
+  		background-color: #23516e;
+  		margin: 12px 20px 0;
+		}
+	.box2_jipiao{
+		width:1019px;
+		border-bottom:1px #dedede solid;
+		margin-bottom:16px;
+		}
+	.nav3_box2_jipiao p{
+		width:14px;
+		height:64px;
+		border-top:1px #83b9cf solid;
+		background:#028abf;
+		padding:6px 7px 8px 8px;
+		font-size:14px;
+		color:#fff;
+		}
+	.nav3_box2_jipiao .p2_nav3{
+		border-top-color:#a5a9ad;
+		background:#545d69;
+		margin-top:10px;
+		}
+	.searcher_box2_jipiao{
+		width:388px;
+		border:1px #dedede solid;
+		background:#fff;
+		border:1px #e3e6ea solid;
+		margin-right:10px;
+		}
+	.top_searcher_box2{
+		border-bottom:1px #e3e6ea solid;
+		padding-left:25px;
+		margin-bottom:20px;
+		}
+	.top_searcher_box2 a{
+		padding: 0px 7px 2px;
+ 		font: 12px/38px "Microsoft yahei";
+  		color: #5f727f;
+  		float: left;
+  		margin: 2px 5px 0;
+		position:relative;
+		}
+	.top_searcher_box2 .blue{
+		width:68px;
+		height:3px;
+		background:#5eb5f1;
+		}
+	.top_searcher_box2 .shu_searcher{
+		width: 1px;
+  		height: 15px;
+  		background-color: #dcdde0;
+  		margin-top: 14px;
+  		float: left;
+		}
+	.top_searcher_box2 .hot{
+		width:20px;
+		height:15px;
+		background:url(../images/images/hot.png) no-repeat;
+		position:absolute;
+		top:4px;
+		right:90px;
+		}
+.box2_jipiao form{
+		padding:0 20px;
+		position:relative;
+		}
+input{
+		border:1px #c7d1e4 solid;
+		}
+.ju_box2{
+		margin-bottom:10px;
+		}
+.ju2_box2{
+		margin-bottom:6px;
+		} 
+#kuang_box2{
+		width:155px;
+		height:28px;
+		padding-left:3px;
+		}
+.frist{
+		margin-bottom:8px;
+		}
+.frist .juli{
+		margin-right:20px;
+		}
+.frist .text{
+		color:#355976;
+		}
+.content_searcher p{
+		line-height:20px;
+		}
+.change{
+		display:inline-block;
+		width:28px;
+		height:65px;
+		background:url(../images/change.png) no-repeat;
+		position:absolute;
+		top:52px;
+		left:180px;
+		}
+.right_box2_jipiao{
+		background:#fff url(../images/images/fly.png) no-repeat 20px 13px;
+		padding:6px 0 6px 142px;
+		margin-top:2px;
+		}
+.txt_box2_jipiao{
+		overflow:hidden;
+		width:36px;
+		border-left:1px #c7d3df solid;
+		padding:9px 15px 12px;
+		}
+.txt2_box2_jipiao{
+		overflow:hidden;
+		border-left:1px #c7d3df solid;
+		padding:18px 15px 19px;
+		}
+.box3_jipiao{
+		background:#fff;
+		border-bottom:1px #dedede solid;
+		margin-bottom:16px;
+		}
+.tejia{
+	padding-left:29px;
+	margin-top:16px;
+	padding-bottom:29px;
+	background:#fff;
+	}
+.tejia-title{
+	padding-top:23px;
+	padding-bottom:15px;}
+.tejia-title-hangban{
+	line-height:30px;
+	font-size:18px;
+	float:left;}
+.tejia-title-city{
+	float:left;
+	margin-left:21px;
+	width:90px;
+	padding-left:4px;
+	font:12px/28px "微软雅黑";
+	border:1px solid #e1e1e1;}
+.tejia-title-from{
+	width:42px;}
+.tejia-title-time{
+	width:79px;}
+.tejia-title i{
+	width:8px;
+	height:4px;
+	background-image:url(../images/images/jipiaobeijingtu.png);
+	background-position:left -299px;
+	float:right;
+	margin-right:6px;
+	margin-top:10px;}
+.tejia-title-span{
+	float:right;
+	margin-right:47px;}
+.tejia-item{
+	float:left;
+	padding-left:12px;
+	width:304px;
+	height:196px;
+	border-right:1px  dashed #dedede;
+	}
+.tejia-item p{
+	float:left;
+	line-height:40px;}
+.tejia-item-city{
+	width:131px;}
+.tejia-item-time{
+	color:#808080;
+	width:69px}
+.tejia-item-money{
+	color:#ff8800;
+	font-size:16px}
+.tejia-item .tejia-item-zhe{
+	float:right;
+	margin-right:20px;
+	text-align:right}	
+	.box4_jipiao{
+		background:#fff;
+		border-bottom:1px #dedede solid;
+		padding:27px 0 30px 27px;
+		margin-bottom:16px;
+		}
+	.right_box4_jipiao{
+		border-left:1px #dedede dotted;
+		padding-left:12px;
+		}
+	.right_box4_jipiao dt{
+		margin-right:9px;
+		}
+	.tittle3_box4{
+		margin-bottom:38px;
+		}
+	.tittle1_box4{
+		font-size:10px;
+		color:#888888;
+		margin-bottom:6px;
+		text-decoration:line-through;
+		}
+	.tittle2_box4{
+		margin-right:7px;
+		font-size:24px;
+		font-weight:bold;
+		color:#ff8800;
+		}
+	.tittle4_box4{
+		margin-right:7px;
+		font-size:10px;
+		color:#888888;
+		margin-top:9px;
+		}
+	.box5_jipiao{
+		background:#fff;
+		border-bottom:1px #dedede solid;
+		padding:27px 0 30px 27px;
+		margin-bottom:16px;
+		}
+	.left_box5_jipiao{
+		background:url(../images/images/5gei.png) no-repeat 10px 72px;
+		border:1px #dfdfdf solid;
+		padding:10px 10px 37px;
+		margin-right:13px;
+		}
+	.tittle_left_box5{
+		font-size:16px;
+		font-weight:bold;
+		color:#6e6e6e;
+		margin-bottom:13px;
+		}
+	.div1_box5{
+		width:156px;
+		border:1px #dcdcdc solid;
+		border-top-color:#afafaf;
+		padding:5px 0 3px 6px;
+		margin-right:8px;
+		}
+	.div2_box5{
+		width:97px;
+		border:1px #dcdcdc solid;
+		padding:5px 0 3px 5px;
+		margin-right:8px;
+		}
+	.right_box5_jipiao dl{
+		margin-right:8px;
+		}
+	.right_box5_jipiao dt{
+		margin-right:17px;
+		}
+	.right_box5_jipiao dd{
+		width:150px;
+		}
+	.tittle_box5{
+		font-size:14px;
+		font-weight:bold;
+		line-height:22px;
+		color:#404040;
+		}
+	.tittle2_box5{
+		line-height:30px;
+		margin-bottom:5px;
+		color:#888888;
+		}
+	.box6_jipiao{
+		background:#fff;
+		border-bottom:1px #dedede solid;
+		padding:16px 31px 30px 30px;
+		margin-bottom:16px;
+		}
+	.tittle_box6_jipiao{
+		font-size:20px;
+		fon-weight:bold;
+		color:#404040;
+		margin:17px 0 10px;
+		}
+	.box7_jipiao{
+		background:#fff;
+		border-bottom:1px #dedede solid;
+		margin-bottom:16px;
+		}
+	.qijian{
+	background:#fff;
+	margin-top:16px;}
+.qijian-main-left{
+	float:left;
+	width:45px;
+	padding:0px 6px 1px 5px;}
+.qijian-item{
+	width:45px;
+	height:37px;
+	border-bottom:1px solid #e1e1e1;}
+.qijian-item img{
+	margin:9px 8px 4px 12px;}
+.qijian-main-center{
+	width:325px;
+	float:left;
+	padding-top:15px;
+	border-left:3px solid #e9e9e9;
+	background:#f2f2f2;}
+.qijian-main-center h4{
+	font:18px/60px "微软雅黑";}
+.qijian-main-center dt{
+	padding-left:10px;}
+.qijian-main-center dd{
+	padding-left:22px;
+	padding-right:30px;}
+.qijian-center-dec{
+	text-indent:2em;
+	font:16px/32px "微软雅黑";}
+.qijian-center-link{
+	padding-left:14px;
+	padding-top:31px;
+	padding-bottom:20px;
+	height:16px;
+	font:16px/16px "微软雅黑";
+	color:#0185b8;}
+.qijian-center-link li,.qijian-center-link a,.qijian-center-link span{
+	float:left;}
+.qijian-center-link span{
+	width:1px;
+	height:16px;
+	background:#0185b8;
+	margin:0px 16px 0px 14px;}
+.qijian-main-right{
+	float:left;
+	padding-left:27px;
+	width:579px;}
+
+.qijian-right-title{
+	height:20px;
+	width:579px;} 
+.qijian-right-title li,.qijian-right-title a{float:left;}
+.qijian-right-title a{
+	padding:4px 11px;
+	font:12px/20px "微软雅黑";}
+.qijian-right-title span{
+	float:left;
+	width:1px;
+	height:20px;
+	background:#e1e1e1;
+	margin:0px 3px 0px 5px;}
+.qijian-right-title li:hover a{
+	background:#ff8800;
+	color:#fff;
+	}
+.qijian-right-title .more{
+	float:right;
+	margin-right:20px;}
+.qijian-right-item{
+	float:left;
+	padding-left:12px;
+	width:274px;
+	height:370px;
+	border-right:1px  dashed #dedede;
+	line-height:48px;
+	margin-top:10px;}
+.qijian-right-item .tejia-item-city{
+	width:83px;}
+.mignxing{
+	width:100%;
+	height:163px;
+	background:#fff;
+	margin-top:16px;
+	}
+.mingxing-title{
+	padding:16px 0px 11px 31px;
+	font: 16px/16px "微软雅黑";}	
+.star-business{
+	width:927px;
+	border:1px solid #e1e1e1;
+	margin-left:30px;
+	overflow:hidden;}	
+.star-business li{
+	float:left;
+	height:78px;
+	overflow:hidden;}
+.star-business-page-prev{
+	width:40px;
+	height:78px;
+	border-right:1px solid #e1e1e1;
+	text-align:center;
+	float:left;}	
+.star-business-page-prev div{
+	width:11px;
+	height:18px;
+	background-image:url(hotelimage/beijingtu1.png);
+	background-position:left -79px;
+	margin:29px auto;}
+.star-business .star-business-page-next{
+	border-left:1px solid #e1e1e1;
+	border-right:0px;
+	float:right;}
+.star-business-page-next div{
+	background-position:left -111px;}
+	
+.star-business img{
+	vertical-align:top;}
+.star-business li a{
+	float:left;
+	/width:108px;
+	border-right:1px solid #f4f4f4;}	
+		
+		
+	.box8_jipiao{
+		background:#fff;
+		border-bottom:1px #dedede solid;
+		padding:27px 0 30px 27px;
+		margin-bottom:16px;
+		}
+	.tittle_box8_jipiao{
+		font-size:18px;
+		fon-weight:bold;
+		color:#404040;
+		margin:5px 17px 30px 0;
+		}
+	.box8_jipiao form{
+		margin-bottom:28px;
+		}
+	.box8_jipiao form p{
+		padding-top:10px;
+		}
+	.box8_jipiao #chengshi{
+		width:143px;
+		margin-left:4px;
+		margin-right:19px;
+		padding:10px 0 7px 4px;
+		background:#fff;
+		border:1px #c7d1e4 solid;
+		}
+	.box8_jipiao #chaxun{
+		padding:10px 21px;
+		background:#63b8f0;
+		color:#fff;
+		}
+	.box8_jipiao .quxian{
+		padding-left:32px;
+		}
+	.txt_box8_jipiao{
+		padding-top:25px;
+		text-align:center;
+		margin-bottom:56px;
+		}
+	.txt_box8_jipiao span{
+		background:url(../images/images/s.png) no-repeat left 1px;
+		padding-left:18px;
+		font-weight:bold;
+		color:#aec7e8;
+		}
+	.txt_box8_jipiao .span1{
+		color:#1f77b4;
+		background:url(../images/images/b.png) no-repeat left 1px;
+		}

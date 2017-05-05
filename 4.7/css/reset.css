@@ -1,0 +1,35 @@
+/* CSS Document */
+
+body,p,h1,h2,h3,h4,h5,h6,dl,dd{
+	margin:0;
+	font-size:12px;
+	font-weight:normal;
+	font-family:"宋体";
+	}
+ol,ul{
+	list-style:none;
+	padding:0;
+	margin:0;
+	}
+li{
+	vertical-align:top;
+	}
+a{
+	text-decoration:none;
+	color:inherit;
+	vertical-align:top;
+	}
+img{
+	border:none;
+	vertical-align:top;
+	}
+b，strong{
+	font-weight:normal;
+	}
+i，em{
+	font-style:normal;
+	}
+mark{
+	background:none;
+	color:inherit;	
+	}

@@ -1,0 +1,140 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>练习31</title>
+<link rel="stylesheet" href="css/reset.css"/>
+<style>
+	fieldset{
+		padding:0;
+		border:none;
+		border-top:1px #c9dca6 solid;
+		font-size:12px;
+		margin:0;
+		vertical-align:top;	
+}
+	form{
+		width:336px;
+		border:1px solid #eee;
+		padding:24px 24px 40px 52px;
+		margin:0 auto;
+		}
+	input{
+		border:1px #7f9db9 solid;
+		padding:0;
+		vertical-align:top;
+		}
+	select,textarea{
+		border:1px #7f9db9 solid;
+		}
+	.header{
+		padding-left:230px;
+		margin-bottom:12px;
+		}
+	.top{
+		padding-left:7px;
+		margin-bottom:9px;
+		}
+	.txt{
+		padding-left:30px;
+		margin-bottom:14px;
+		}
+	.txt2{
+		padding-left:30px;
+		margin-bottom:6px;
+		}
+	.bottom{
+		padding-left:7px;
+		margin-bottom:6px;
+		}
+	.bianju{
+		padding-left:32px;
+		margin-top:7px;
+		margin-bottom:11px;
+		}
+	.bianju2{
+		margin-left:4px;
+		padding-left:7px;
+		}
+	textarea{
+		width:218px;
+		height:114px;
+		margin-top:4px;
+		margin-bottom:6px;
+		}
+	.tijiao{
+		padding-left:94px;
+		}
+	#tijiao2{
+		background:#fff;
+		border:1px #003c74 solid;
+		padding:1px 19px 7px 17px;
+		font-size:12px;
+		font-weight:bold;
+		}
+</style>
+</head>
+
+<body>
+	<form>
+    	<p class="header">*号所在项为必填项</p>
+        <fieldset class="top">
+        	<legend>个人信息</legend>
+        </fieldset>
+        <p class="txt"><label for="user">姓名*</label><input type="text" id="user"/></p>
+        <p class="txt"><label for="dizhi">地址*</label><input type="text" id="dizhi"/></p>
+ 		<p class="txt">
+        出生*<select>
+        		<option selected>1</option>
+            	<option>2</option>
+            	<option>3</option>
+            	<option>4</option>
+            	<option>5</option>
+        	</select>
+        	<select>
+        		<option selected>Jan</option>
+            	<option>Feb</option>
+           		<option>Mar</option>
+            	<option>Apr</option>
+            	<option>May</option>
+        	</select>
+       		<select>
+        		<option>1975年</option>
+            	<option>1976年</option>
+            	<option>1977年</option>
+            	<option>1978年</option>
+            	<option selected>1979年</option>
+        	</select>
+  		</p>
+        <p class="txt2">
+        	性别*<select>
+        			<option selected>女</option>
+            		<option>男</option>
+       			</select>
+        </p>
+        <fieldset class="bottom">
+        	<legend>其他信息</legend>
+        </fieldset>
+            <fieldset class="bianju2">
+        		<legend>你喜欢这个表单吗？*</legend>
+        	</fieldset>
+            	<p class="bianju">
+                <label><input type="radio" name="like"/>喜欢</label>
+            	<label><input type="radio" name="like"/>不喜欢</label>
+                </p>
+            <fieldset class="bianju2">
+        		<legend>你喜欢什么运动?*</legend>
+        	</fieldset>
+           	 	<p class="bianju">
+                <label><input type="checkbox" name="sport"/>足球</label>
+        		<label><input type="checkbox" name="sport"/>篮球</label>
+       			<label><input type="checkbox" name="sport"/>网球</label>
+                </p>
+            <fieldset class="bianju2">
+        		<legend>请写下你的建议?*</legend>
+        	</fieldset>
+            	<textarea></textarea>
+        	<p class="tijiao"><input type="submit" value="提交个人信息" id="tijiao2"/></p>
+    </form>
+</body>
+</html>

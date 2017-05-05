@@ -1,0 +1,109 @@
+/* CSS Document */
+.box{
+	width:590px;
+	height:861px;
+	background:url(../../4-25/images/bg.png);
+	margin:0 auto;
+	padding-top:50px;	
+}
+.item{
+	margin-bottom:21px;
+	color:#fff;	
+}
+.title1{
+	float:left;
+	width:112px;
+	padding-top:13px;
+	color:#fff;
+	text-align:right;
+	margin-right:15px;	
+}
+
+.user{
+	width:275px;
+	height:38px;
+	line-height:38px;
+	border:1px solid #fff;
+	padding-left:13px;
+	outline:none;
+	color:#fff;
+	float:left;	
+}
+.tips{
+	float:left;
+	color:#fff;
+	margin-left:18px;
+	padding-top:13px;
+	position:relative;
+	padding-right:30px;	
+}
+
+.box .focus{
+	border:1px solid #e7788d;
+}
+.sanjiao{
+	position:absolute;
+	width:14px;
+	height:7px;
+	top:16px;
+	right:9px;
+	background:url(../../4-25/images/sanjiao.png) no-repeat;	
+}
+.city{
+	float:left;
+	width:129px;
+	height:38px;
+	border:1px solid #fff;
+	line-height:38px;
+	padding-left:9px;
+	position:relative;	
+}
+.place{
+	float:left;
+	width:119px;
+	height:38px;
+	border:1px solid #fff;
+	margin-left:20px;
+	line-height:38px;
+	padding-left:9px;
+	position:relative;	
+}
+.radio1{
+	padding-top:11px;	
+}
+.radio1 input{
+
+	display:none;	
+}
+.boy1{
+	background:url(../../4-25/images/checked.png) no-repeat;
+	float:left;
+	height:20px;
+	line-height:20px;
+	color:#fff;
+	padding-left:26px;	
+}
+.girl1{
+	background:url(../../4-25/images/checked.png) no-repeat;
+	float:left;
+	height:20px;
+	line-height:20px;
+	color:#fff;
+	padding-left:26px;
+	margin-left:40px;	
+}
+.words{
+	float:left;
+	width:288px;
+	height:78px;
+	border:1px solid #fff;
+	color:#fff;
+	white-space:normal;	
+	text-indent:9px;
+	line-height:24px;
+	padding-top:5px;
+	font-size:14px;
+}
+
+
+

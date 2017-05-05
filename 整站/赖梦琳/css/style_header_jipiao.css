@@ -1,0 +1,101 @@
+/* CSS Document */
+/* CSS Document */
+
+	.wrap_header{
+		width:100%;
+		background:#f2f2f2;
+		border-bottom:1px #e5e5e5 solid;
+		}
+	.header{
+		width:990px;
+		margin:0 auto;
+		padding-top:8px;
+		padding-bottom:5px;
+		color:#b6b6cc;
+		}
+	.header a{
+		color:#6c6c6c;
+		}
+	.header_left{
+		word-spacing:8px;
+		}
+	.header_left ul{
+		padding-left:22px;
+		background:url(../images/house.png) no-repeat left top;
+		}
+	.header_left .tittle1{
+		padding-left:4px;
+		margin-right:19px;
+		}
+	.header_right .shu{
+		width:2px;
+		color:#e3dde3;
+		margin-right:13px;
+		}
+	.header_right a{
+		position:relative;
+		margin-right:25px;
+		}
+	.header_right .spacing1{
+		margin-right:19px;
+		}
+	.header_right .sanjiao{
+		position:absolute;
+		width:6px;
+		height:3px;
+		top:3px;
+		background:url(../images/sanjiao.png) no-repeat;
+		margin-left:7px;
+		}
+	.header_right .daohang{
+		background:url(../images/daohang.png) no-repeat left -1px;
+		padding-left:17px;
+		}	
+	.wrap_header img{
+		width:100%;
+		}
+	.wrap_content{
+		background:#fff;
+		width:100%;
+		border-bottom:3px #3ea3ff solid;
+		}
+	.content_header{
+		width:990px;
+		margin:0 auto;
+		padding-top:9px;
+		padding-bottom:7px;
+		}
+	.left_1{
+		margin-bottom:17px;
+		}
+	.left_1 .photo{
+		padding-top:19px;
+		}
+	.txt{
+		background:url(../images/phone.png) no-repeat 10px 6px;
+		border:1px #dce0e5 solid;
+		padding:10px 54px 9px 41px;
+		margin-top:5px;
+		position:relative;
+		}
+	.jiantou{
+		width:10px;
+		height:6px;
+		background:url(../images/jiantou.png) no-repeat;
+		position:absolute;
+		top:12px;
+		right:15px;
+		}
+	.left_2{
+		padding-left:12px;
+		}
+	.left_2 li{
+		font-size:16px;
+		font-weight:bold;
+		color:#23516e;
+		line-height:32px;
+		margin-right:22px;
+		}
+	.left_2 li:hover a{
+		color:#3ea3ff;
+		}

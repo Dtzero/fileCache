@@ -1,0 +1,48 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+<title>LOVEＹＯＵ</title>
+
+<base target="_blank">
+<!--
+定义页面中所有页面打开方式
+-->
+
+<style>
+/*
+link 未访问（默认）
+visited  访问过后（点击过后）
+hover 鼠标悬停（鼠标滑过）
+active  链接激活（鼠标按下）
+(love hate)
+1、不可打乱顺序
+2、可以改变背景颜色、链接颜色、字体大小、增加下划线
+ */
+
+/*a:link{text-decoration:none; color:green;}
+a：visited{color：black}
+a:active{color:red; text-decoration:underline;}
+a:hover{color:pink}*/
+
+.page{height:60px; background:#e8e8e8; width:600px; margin:90px auto; text-align:right;}
+.page a{background:#fff; border:1px solid #cdcdcd; color:#333333;padding:o 8px 0 9px;height:28px; line-height:28px;
+ display:inline-block;}
+ .page a:hover{border-color:red; color:red;}
+ .page .active{font-weight:bold;background:#fcf9ea;cursor:text;}/* 文本不能点击 */
+ .page .active:hover{border-color:#cdcdcd;color:#333333;}
+</style>
+</head>
+<body>
+<div class="page">
+  <a href="#">上一页</a>
+  <a href="#">1</a>
+  <a href="#">2</a>
+  <a href="#" class="active">3</a>
+  <a href="#">4</a>
+  <a href="#">...777</a>
+  <a href="#">下一页</a>
+</div>  
+</body>
+</html>

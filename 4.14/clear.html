@@ -1,0 +1,52 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>无标题文档</title>
+<link rel="stylesheet" href="css/reset.css"/>
+<style>
+	.box{
+		width:1000px;
+		}
+	.div1{
+		width:100px;
+		height:100px;
+		background:pink;
+		float:left;
+		}
+	.div2{
+		width:200px;
+		height:200px;
+		background:blue;
+		float:left;
+		}
+	.div3{
+		width:300px;
+		height:300px;
+		background:yellow;
+		float:left;
+		}
+	.qing{
+		height:0;
+		clear:both;
+		}
+	.div4{
+		width:400px;
+		height:400px;
+		background:red;
+		float:left;
+		}
+</style>
+</head>
+<body>
+<!--clear：清除上侧元素的浮动的影响，即设置了浮动的元素的高可以撑开父元素，但浮动效果不清除，clear前其他浮动元素能在一排；之后的元素强制换行；clear属相值与浮动元素属性值一致；clear的属性值为both；可以清除上侧所有的浮动元素（是文档顺序即在body里所写顺序）；然后clear元素高度为0，再加上overflow:hidden；
+-->
+<div class="box">
+<div class="div1"></div>
+<div class="div2"></div>
+<div class="qing">
+</div><div class="div3"></div>
+<div class="div4"></div>
+</div>
+</body>
+</html>

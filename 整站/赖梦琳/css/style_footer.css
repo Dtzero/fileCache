@@ -1,0 +1,95 @@
+/* CSS Document */
+
+	.wrap_footer{
+		width:100%;
+		}
+	.wrap_footer .plant{
+		width:1160px;
+		border:1px #eeeeee solid;
+		margin:0 auto;
+		padding:14px 20px 6px 10px;
+		margin-bottom:10px;
+		}
+	.plant a{
+		float: left;
+		font: 12px/18px "宋体";
+  		color: #7594a8;
+		white-space:nowrap;
+		}
+	.plant .shu{
+		width: 1px;
+ 		height: 12px;
+  		margin: 3px 6px 0 6px;
+  		background-color: #7594a8;
+		}
+	.wrap_footer .serve{
+		width:1190px;
+		border-top:3px #3ea3ff solid;
+		border-bottom:1px #e8e8e8 solid;
+		margin:0 auto;
+		padding:44px 0 47px;
+		}
+	.serve .part{
+		padding:0 5px 0 25px;
+		border-right:1px #e8e8e8 solid;
+		}
+	.serve .part2{
+		border-right:none;
+		}
+	.serve .part3{
+		width:240px;
+		}
+	.serve dl{
+		width:220px;
+		}
+	.serve .tittle_footer{
+		font-size:16px;
+		font-weight:bold;
+		color:#2b577a;
+		padding-top:4px;
+		padding-bottom:15px;
+		}
+	.serve .name{
+		display:inline-block;
+		line-height:24px;
+		color:#8a9ca8;
+		margin-right:10px;
+		}
+	.wrap_footer .product{
+		width:1190px;
+		margin:0 auto;
+		padding-left:3px;
+		color:#6c6c6c;
+		}
+	.product .nav{
+		border-bottom:1px #e8e8e8 dashed;
+		padding:8px 0 6px;
+		}
+	.product .work{
+		line-height:28px;
+		}
+	.product .shu2{
+		color:#e2d5e2; 
+		margin:0 -2px;
+		}
+	.product .explain{
+		line-height:24px;
+		color:#999;
+		}
+	.product .shu3{
+		color:#bb99bb; 
+		margin:0 -1px;
+		}
+	.product .police{
+		color:#999;
+		padding:0 5px;
+		}
+	.police dt{
+		padding-top:4px;
+		}
+	.police dd{
+		width:48px;
+		font-size:8px;
+		line-height:18px;
+		margin-left:7px;
+		}

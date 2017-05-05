@@ -1,0 +1,83 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>无标题文档</title>
+<style>
+	.wrap{
+		width:350px;
+		height:350px;
+		border:1px red solid;
+		text-align:center;
+		position:absolute;
+		top:0;
+		left:0;
+		}
+	.div1{
+		width:100px;
+		height:100px;
+		background:red;
+		position:absolute;
+		top:25px;
+		left:25px;
+		}
+	.div2{
+		width:100px;
+		height:100px;
+		background:red;
+		position:absolute;
+		top:25px;
+		left:225px;
+		}
+	.div3{
+		width:100px;
+		height:100px;
+		background:blue;
+		position:absolute;
+		top:125px;
+		left:125px;	
+		}
+	.div4{
+		width:100px;
+		height:100px;
+		background:red;
+		position:absolute;
+		top:225px;
+		left:25px;
+		}
+	.div5{
+		width:100px;
+		height:100px;
+		background:red;
+		position:absolute;
+		top:225px;
+		left:225px;		
+		}
+	a{
+		text-decoration:none;
+		color:#fff;
+		line-height:100px;
+		}
+	/*
+	position:absolute; 绝对定位 top/right/bottom/left  定位元素偏移量
+	位移值是变换后的子盒子到当前页面的距离 相对页面
+
+	a、使元素完全脱离文档流；
+	b、使内嵌支持宽高；
+	c、块属性标签内容撑开宽度；
+	d、如果有定位父级相对于定位父级发生偏移，没有定位父级相对于document发生偏移；
+	e、相对定位一般都是配合绝对定位元素使用；
+	f、提升层级	
+	*/
+</style>
+</head>
+<body>
+	<div class="wrap">
+    	<div class="div1"><a href="#">链接</a></div>
+        <div class="div2"><a href="#">链接</a></div>
+        <div class="div3"><a href="#">链接</a></div>
+        <div class="div4"><a href="#">链接</a></div>
+        <div class="div5"><a href="#">链接</a></div>
+    </div>
+</body>
+</html>

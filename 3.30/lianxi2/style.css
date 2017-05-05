@@ -1,0 +1,31 @@
+/* CSS Document */
+
+#top{
+	width:500px;
+	height:120px;
+	background-image:url(../images/miaov.png);
+}	
+#box{
+	width:496px;
+	border:2px #a9e8f7 solid;
+	border-top:none;
+}
+#second{
+	height:100px;
+	border-bottom:2px #ecf4fa solid;
+	background:#f4c3cd url(../images/email.png) no-repeat 39px;
+}
+#third{
+	height:100px;
+	border-bottom:2px #ecf4fa solid;
+	background:#f8d7de url(../images/mouse.png) no-repeat 39px;
+}
+#fourth{
+	height:100px;
+	border-bottom:2px #ecf4fa solid;
+	background:#fbe7eb url(../images/smile.png) no-repeat 39px;
+}
+#bottom{
+	height:192px;	
+	background:#fdf3f5 url(../images/star.png) no-repeat 39px 32px;
+}

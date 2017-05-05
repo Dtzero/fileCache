@@ -1,0 +1,398 @@
+/* CSS Document */
+
+	.wrap_jiudian{
+		width:100%;
+		}
+	.box_jiudian{
+		width:1190px;
+		margin:0 auto;
+		}
+	.box1_jiudian{
+		background:#e4f4ff;
+		border-bottom:1px #dedede solid;
+		padding-left:240px;
+		margin-bottom:8px;
+		}
+	.nav_box1 a{
+		padding: 0 6px;
+  		font: 12px/22px "Microsoft yahei";
+  		color: #23516e;
+  		background-color: #e4f4ff;
+  		margin-top: 6px;
+  		float: left;
+		position:relative;
+		}
+	.nav_box1 .n{
+		width:9px;
+		height:11px;
+		background:url(../images-jiudian/n.png) no-repeat;
+		position:absolute;
+		top:-13px;
+		right:-11px;
+		}
+	.shu_nav_box1{
+		width: 1px;
+  		height: 12px;
+  		background-color: #23516e;
+  		margin: 12px 20px 0;
+		}
+		
+		
+		
+	.searcher_box2_jiudian{
+		width:486px;
+		background:#fff;
+		border:1px #e3e6ea solid;
+		}
+	.top_searcher_box2{
+		border-bottom:1px #e3e6ea solid;
+		padding-left:25px;
+		}
+	.top_searcher_box2 a{
+		  padding: 0px 7px 2px;
+  font: 12px/38px "Microsoft yahei";
+  color: #5f727f;
+  float: left;
+  margin: 2px 5px 0;
+		position:relative;
+		}
+	.top_searcher_box2 .blue{
+		width:68px;
+		height:3px;
+		background:#5eb5f1;
+		}
+	.top_searcher_box2 .shu_searcher{
+		  width: 1px;
+  height: 15px;
+  background-color: #dcdde0;
+  margin-top: 14px;
+  float: left;
+		}
+	.top_searcher_box2 .H{
+		width:11px;
+		height:12px;
+		background:url(../images-jiudian/h.png) no-repeat;
+		position:absolute;
+		top:-7px;
+		right:-9px;
+		}
+	.box2_jiudian form{
+		padding:0 20px;
+		position:relative;
+		}
+	input{
+		border:1px #c7d1e4 solid;
+		}
+	.ju2_box2{
+		margin-bottom:6px;
+		} 
+	#kuang_box2_jiudian{
+		width:205px;
+		height:28px;
+		padding-left:3px;
+		}
+	.content_searcher p{
+		padding-top:14px;
+		padding-bottom:4px;
+		}
+	.bottom_box2{
+		background:#f1f2f6 url(../images-jiudian/phone.png) no-repeat 18px 4px;
+		padding:9px 0 8px 38px;
+		}
+	.right_box2_jiudian{
+		border-bottom:1px #dedede solid;
+		}
+	.searchR{float:right;}
+.searchR-dec1{
+	float:left;
+	padding-top:10px;
+	padding-left:20px;
+	color:#6d8aa8;}
+.searchR-dec1-icon{
+	width:41px;
+	height:41px;
+	background-image:url(../images-jiudian/beijingtu1.png);
+	background-position:left -159px;
+	float:left;
+	margin-right:7px;}
+.searchR-dec1-font	{
+	float:left;}
+.searchR-dec1-1{
+	font:bold 16px/16px "微软雅黑";
+	padding-top:7px;
+	padding-bottom:4px;}
+.searchR-dec2{
+	float:right;
+	margin-top:14px;}
+.searchR-dec2 li{
+	float:left;
+	width:137px;
+	height:38px;
+	border-right:1px solid #c7d3df;
+	text-align:center;}	
+.searchR-dec2-icon{
+	width:15px;
+	height:15px;
+	background-image:url(../images-jiudian/beijingtu1.png);
+	background-position:left -52px;
+	margin:0 auto;}
+.searchR-dec2-font{
+	font:12px/20px "微软雅黑";
+	padding-top:3px;}
+.searchR-dec2 .searchR-dec2-item3{
+	border:0px;
+	margin-right:6px;}	
+.searchR dd{
+	border:1px solid #d2d2d2;
+	padding-bottom:9px;}	
+.changtu{
+	height:50px;
+	margin-bottom:4px;
+	background:url(../images-jiudian/changtu.png);}
+
+.temai-mod{
+	width:290px;
+	float:left;}
+.temai-mod-title{
+	padding-top:16px;
+	font:16px/36px "宋体";
+	border-bottom:#ff684d 2px solid;
+	color:#ff684d;}
+.temai-mod-other{
+	font:12px/46px "宋体";
+	padding-left:9px;}
+.temai-mod dd{
+	border:1px solid #e1e1e1;
+	border-top:0px;}
+.temai-mod-other-money{
+	float:left;
+	font:bold 24px/50px "宋体";
+	padding-left:16px;
+	color:#ff5741;
+	padding-right:11px;}
+.temai-mod-other-menshi{
+	float:left;
+	color:#909090;
+	font:12px/38px "宋体";
+	padding-top:12px;}
+.temai-mod-other-menshi i{
+	text-decoration:line-through;}
+.temai-mod-other-qiang{
+	float:right;
+	font:12px/40px "微软雅黑";
+	padding-top:10px;
+	padding-right:9px;}
+.tuangou-mod{
+	float:right;
+	width:890px;}
+.tuangou-mod .temai-mod-other{
+	padding-top:12px;}
+.tuangou-mod .temai-mod-other a{
+	float:left;
+	padding:6px 11px 4px;
+	font:12px "宋体";
+	margin-right:11px;}
+.tuangou-mod .temai-mod-other span{
+	float:left;}
+.tuangou-mod .temai-mod-other a:hover {
+	background:#15bcbe;
+	color:#fff;}
+.tuangou-mod .temai-mod-other i{
+	float:right;
+	padding-right:10px;
+	line-height:24px;}
+.tuangou-mod dl{
+	float:left;
+	width:215px;
+	margin-top:11px;
+	margin-right:10px;
+	position:relative;}
+.tuangou-mod img{
+	width:215px;
+	height:145px;}
+	
+.dingweitext{
+	position:absolute;
+	top:117px;
+	width:215px;
+	color:#fff;}
+.bg{
+	height:28px;
+	background:#000;
+	opacity:0.5;
+	filter:alpha(opacity=50);}
+.dingweitext .text{
+	font:12px/28px "宋体";
+	position:absolute;
+	top:0px;
+	padding-left:8px;}			
+.tuangou-mod .temai-mod-other-money{
+	font:14px/29px "宋体";
+	padding-right:8px;}
+.tuangou-mod .temai-mod-other-menshi{
+	
+	font:12px/22px "宋体";
+	padding-top:7px;}
+.tuangou-mod .temai-mod-other-qiang{
+	float:right;
+	font:12px/26px "微软雅黑";
+	padding-top:3px;}
+/*-------------------------------------------------------理由-------------------------------------*/
+.liyou-mod .temai-mod-title{
+	color:#fdba00;
+	border-color:#fdba00;}
+.liyou-item{
+	float:left;
+	width:285px;
+	margin-right:16px;
+	padding-top:16px;}
+.liyou-item dd{
+	padding-top:11px;
+	line-height:30px;
+	padding-left:5px;}
+.liyou-item dd span{
+	float:right;
+	margin-right:7px;
+	color:#ff5741;}
+.guonei-mod{
+	width:100%;
+	float:none;}
+.guonei-mod .temai-mod-title{
+	color:#3fb3fb;
+	border-color:#3fb3fb;}
+.guonei-mod .hot{
+	float:left;
+	line-height:24px;
+	padding-right:10px;}
+.guonei-mod .temai-mod-other a:hover {
+	background:#3fb3fb;
+	color:#fff;}
+.guonei-mod img{
+	width:230px;
+	height:160px;}
+.guonei-mod dl{
+	width:230px;}
+.guonei-mod dd{
+	width:228px;
+	border:1px solid #e1e1e1;
+	border-top:0px;}
+.guonei-mod-other-di{
+	font:12px/38px "宋体";
+	padding-left:8px;}	
+.guonei-mod-other-money i{
+	float:left;
+	color:#ff5741;
+	font-size:22px;
+	padding-left:7px;}	
+.guonei-mod-other-money span{
+	float:right;
+	font:12px/32px "微软雅黑";
+	margin-right:9px;}	
+/*--------------------------------------------------------mulu---------------------------------------*/
+.mulu-mod-title{
+	padding-top:26px;
+	padding-bottom:10px;
+	border-bottom:2px solid #af84d7;}
+.mulu .mulu-mod-title i{
+	font:16px/16px "微软雅黑";
+	color:#af84d7;
+	float:left;
+	padding-left:8px;}
+.mulu-mod-title span{
+	float:right;}
+.mulu-mod-title span a{
+	float:left;
+	padding:6px 11px 4px;
+	font:12px "宋体";
+	margin-right:11px;}
+.mulu-mod-title span a:hover{
+	background:#af84d7;
+	color:#fff;}
+.mulu-item{
+	
+	margin-top:12px;}
+.mulu-item-title{
+	width:18px;
+	float:left;
+	height:152px;
+	padding-top:54px;
+	padding-left:10px;
+	padding-right:10px;
+	background:#af84d7;
+	color:#fff;
+	text-align:center;
+	line-height:25px;}
+.mulu-item-title i{
+	float:left;
+	}
+.mulu-item-dec{
+	border:1px solid #ddd;
+	border-left:0px;
+	float:left;
+	width:1130px;
+	padding-left:20px;
+	padding-bottom:9px;}
+.mulu-item-dec dl{
+	float:left;
+	width:260px;
+	height:98px;
+	padding-right:18px;
+	}
+.mulu-item-dec dt{
+	padding-top:10px;
+	font-weight:bold;
+	line-height:22px;}
+.mulu-item-dec dd{
+	line-height:22px;
+	white-space:nowrap;
+	}
+.mulu-item-dec a{
+	float:left;
+	margin-right:16px;
+	white-space:nowrap;}
+.mulu-item-dec .mulu-item4{
+	width:240px;
+	padding-right:0px;}
+.mulu-item2 .mulu-item-dec {
+	height:78px;}
+.mulu-item2 .mulu-item-title{
+	height:68px;
+	padding-top:20px;}
+	/*--------------------------------------------------------------------------------------------*/
+.mingxing-title{
+	padding:26px 0px 11px 9px;
+	font:bold 16px/16px "宋体";}	
+.star-business{
+	width:100%;
+	border:1px solid #e1e1e1;}	
+.star-business li{
+	float:left;
+	height:78px;
+	overflow:hidden;}
+.star-business-page-prev{
+	width:39px;
+	height:78px;
+	border-right:1px solid #e1e1e1;
+	text-align:center;}	
+.star-business-page-prev div{
+	width:11px;
+	height:18px;
+	background-image:url(../images-jiudian/beijingtu1.png);
+	background-position:left -79px;
+	margin:29px auto;}
+.star-business-page-next{
+	border:0px;}
+.star-business-page-next div{
+	background-position:left -111px;
+	}
+.star-business img{
+	vertical-align:top;}
+.star-business li a{
+	float:left;
+	border-right:1px solid #f4f4f4;}
+/*-----------------------------------------------------------------------------------------*/
+.ad{
+	margin-top:26px;
+	margin-bottom:4px;}
+.ad a{
+	margin-right:4px;}		

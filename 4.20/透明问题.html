@@ -1,0 +1,41 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>无标题文档</title>
+<style>
+.box{
+	width:300px;
+	height:300px;
+	font-size:50px;	
+	border:1px solid blue;
+	position:relative;
+}
+.bg{
+	width:300px;
+	height:300px;
+	background:red;
+	position:absolute;
+	left:0;
+	top:0;
+	opacity:1;
+	filter:alpha(opacity=30);	
+}
+.text{
+	z-index:2;
+	position:relative;	
+}
+</style>
+</head>
+
+<body>
+	<div class="box">
+   		<div class="text">我是div</div>
+        <div class="bg"></div>
+    </div>
+    <!--
+    	z-index:定义层级的，可以取负值，但是只能是整数，数值越大层级越高，越显示在上面；
+        注意：一定要跟定位属性结合，如果只是为了用这个属性，可以给该元素添加一个position:relative;
+    -->
+</body>
+</html>

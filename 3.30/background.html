@@ -1,0 +1,34 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>无标题文档</title>
+</head>
+<style>
+	div{
+		width:1000px;
+		height:1000px;
+		border:1px solid pink;
+		/*background:#6F0;
+		background-image:url(images/buliangren.png);
+		background-repeat:no-repeat;
+		background-position:center; 
+		background-attachment:fixed;*/
+		background:#6F0 url(images/markson.gif) no-repeat center;
+	}
+	/*
+	当添加了属性background-attachment：fixed之后，背景图片的定位参照物为当前可视窗口
+，但背景图片的可视大小依旧参照div；*/
+	/*
+	当容器比背景图大时，
+	背景定位默认在左上角，且背景默认重复；当定位属性值只写一个值时，另一个默认为center，第一个值为x,第二个值为y，往上往左为负值，往下往右为正值；
+	*/
+</style>
+<!-- 
+	1、没有作用、起美观作用的用background；呈现给用户看的，有实际作用的且图文相关用img；若两者均可，一般使用background；
+	2、background是css，img是HTML；
+-->
+<body>
+	<div></div>
+</body>
+</html>

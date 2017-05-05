@@ -1,0 +1,211 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>练习33</title>
+<link rel="stylesheet" href="css/reset.css"/>
+<style>
+	.wrap{
+		width:590px;
+		height:911px;
+		background:url(images/bg1.png);
+		padding:39px 113px 50px 117px;
+		}
+	.box{
+		width:590px;
+		height:911px;
+		background:url(images/bg2.png);
+		}
+	.top{
+		width:520px;
+		border-bottom:1px #2e2634 solid;
+		padding:44px 36px 0 34px;
+		font-size:14px;
+		color:#fff;	
+		}
+	ul{
+		margin-bottom:21px;
+		}
+	.txt{
+		width:94px;
+		line-height:40px;
+		text-align:right;
+		}
+	.text{
+		width:288px;
+		height:38px;
+		border:1px #e7788d solid;s
+		}
+	.text2{
+		width:288px;
+		height:38px;
+		border:1px #bfbfbf solid;
+		}
+	.text3{
+		width:130px;
+		line-height:38px;
+		background:url(images/jiantou.png) no-repeat 116px 16px;
+		border:1px #bfbfbf solid;
+		padding-left:8px;
+		margin-right:20px;
+		}
+	.text4{ 
+		width:119px;
+		line-height:38px;
+		background:url(images/jiantou.png) no-repeat 106px 16px;
+		border:1px #bfbfbf solid;
+		padding-left:9px;
+		}
+	.text5{
+		width:79px;
+		background:url(images/jiantou.png) no-repeat 66px 16px; 
+		}
+	.text6{
+		width:69px;
+		background:url(images/jiantou.png) no-repeat 56px 16px;
+		}
+	.text7{
+		width:180px;
+		height:20px;
+		padding:11px 0 9px;
+		margin-bottom:21px;
+		}
+	.text8{
+		width:279px;
+		height:65px;
+		padding-top:13px;
+		padding-left:9px;
+		}
+	.last{
+		line-height:40px;
+		padding-left:20px;
+		text-align:left;
+		}
+	.last2{
+		background:url(images/jiantou.png) no-repeat 476px 16px;
+		}
+	.form1{
+		height:20px;
+		padding:11px 0 9px 29px;
+		margin-bottom:21px;
+		word-spacing:40px;
+		}
+	input{
+		padding:0;
+		border:none;
+		vertical-align:top;
+		font-size:14px;
+		}
+	#sex{
+		margin-right:7px;
+		}
+	#change{
+		width:50px;
+		background:#e7788d;
+		line-height:25px;
+		color:#fff;
+		text-align:center;
+		margin:7px 46px 9px 14px;
+		}
+	.bottom{
+		width:520px;
+		padding:26px 36px 35px 34px;
+		font-size:14px;
+		color:#fff;	
+		}
+	.bottom p{
+		padding-left:10px;
+		margin-bottom:26px;
+		}
+	.text9{
+		background:url(images/jiantou.png) no-repeat 116px 16px;
+		}
+	#baocun{
+		width:130px;
+		background:#e7788d;
+		line-height:44px;
+		color:#fff;
+		text-align:center;
+		margin-top:5px;
+		margin-left:94px;
+		}
+	#quxiao{
+		width:126px;
+		background:none;
+		border:2px #e7788d solid;
+		line-height:40px;
+		color:#e7788d;
+		text-align:center;
+		margin-top:5px;
+		margin-left:30px;
+		}
+</style>
+</head> 
+
+<body>
+	<div class="wrap">
+    	<div class="box">
+        	<div class="top">
+        		<ul class="clearfix">
+            	<li class="txt fl">*昵称：</li>
+                <li class="text fl"></li>
+                <li class="last fl">4-20个字符</li>
+            </ul>
+                <ul class="clearfix">
+                    <li class="txt fl">真实姓名：</li>
+                    <li class="text2 fl"></li>
+                </ul>
+            	<ul class="clearfix last2">
+            	<li class="txt fl">*所在地：</li>
+                <li class="text3 fl">北京</li>
+                <li class="text4 fl">朝阳区</li>
+                <li class="last fl">所在人可见</li>
+            </ul>
+            	<form class="form1">
+            	*性别：<label><input type="image" src="images/bg3.png" id="sex"/>男</label>
+                <label><input type="image" src="images/bg4.png" id="sex"/>女</label>
+            </form>
+             	<ul class="clearfix">
+            	<li class="txt fl">生日：</li>
+                <li class="text3 text5 fl">2009年</li>
+                <li class="text3 text6 fl">01月</li>
+                <li class="text4 text6 fl">01日</li>
+                <li class="last fl">保密</li>
+            </ul>
+                <ul class="last2 clearfix">
+                    <li class="txt fl">博客地址：</li>
+                    <li class="text2 fl"></li>
+                    <li class="last fl">所在人可见</li>
+                </ul>
+            	<ul class="clearfix">
+            	<li class="txt fl">常用邮箱：</li>
+                <li class="text7 fl">mofeiangmotao@sina.com</li><form class="fl"><input type="submit" id="change" value="修改"/></form>
+                <li class="last last3 fl">我关注的人可见</li>
+            </ul>
+            	<ul class="clearfix">
+            	<li class="txt fl">QQ：</li>
+                <li class="text2 fl"></li>
+            </ul>
+            	<ul class="clearfix">
+            	<li class="txt fl">一句话介绍：</li>
+                <li class="text2 text8 fl">人生在于折腾</li>
+            </ul>
+            </div>
+            <div class="bottom">
+            	<p>以下信息，可作为通过客服取回账号的依据</p>
+                <ul class="clearfix">
+                	<li class="txt fl">证件类型：</li>
+                    <li class="text3 text9 fl">身份证</li>
+                </ul>
+                <ul class="clearfix">
+            		<li class="txt fl">证件号码：</li>
+               		<li class="text2 fl"></li>
+           		</ul>
+                <form>
+                	<input type="submit" value="保存" id="baocun"/><input type="reset" value="取消" id="quxiao"/>
+                <form>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
